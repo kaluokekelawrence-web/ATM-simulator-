@@ -9,5 +9,16 @@ A Python CLI app simulating core ATM operations.
 - Input validation
 - Menu navigation
 
+## Tech Stack 
+- Python 3
+
 ## How to run
+```bash
+git clone https://github.com/kaluokekelawrence-web/ATM-simulator-
 python main.py
+```
+
+## Author
+Lawrence kalu-Okeke 
+GitHub repository:
+https://github/kaluokekelawrence-web/ATM-simulator-
