@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environments ---
+venv/
+env/
+.env/           # the folder (not the file — careful here)
+
+# --- Environment variables (CRITICAL) ---
+.env            # API keys, DB passwords — NEVER push this
+.env.local
+.env.production
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- ML model artifacts (usually too large for GitHub) ---
+*.h5
+*.pkl
+*.pt
+*.onnx
+models/
+
+# --- OS junk ---
+.DS_Store       # Mac
+Thumbs.db       # Windows
+
+# --- IDE files ---
+.vscode/
+.idea/
